@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>AresBotics</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='assets/style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet"> -->
+    <script src='script.js'></script>
+</head>
+<body>
+        <header class='main_header'>ARES Survey Form</header>
+        
+        <div class='main-container'>
+            <div class='box'>
+               <label for='name_id' class='label'>Name</label>
+               <input class='name_class' id='name_id' type='text' placeholder="Enter Your Name"><br>
+
+               <label for='mail_id'>Email</label>
+               <input class='mail_class' id='mail_id' type='text' placeholder="Enter Your Email"><br>
+
+               <label for='age_id'>Age<small>(optional)</small></label>
+               <input class='age_class' id='age_id' type='number' placeholder="Enter Your Age"><br>
+
+               <label for='opt_id'>Which option best describe your current role?</label>
+               <select id='opt_id'>
+                    <option value='start'>Select current option</option>
+                    <option value='XYZ'>Planning</option>
+                    <option value='abc'>Organizing</option>
+                    <option value='def'>Leading</option>
+                    <option value='ghi'>Controlling</option>
+               </select><br>
+
+               <label for='opt2_id'>What is that one thing which excites you most about ARES</label>
+               <select id='opt2_id'>
+                    <option value='start'>Select an option</option>
+                    <option value='XYZ'>Opportunites</option>
+                    <option value='abc'>Exposure</option>
+                    <option value='def'>Network</option>
+                    <option value='ghi'>Finding New Stuff</option>
+                </select><br>
+
+               <label for='sugst'>Any comments or suggestions</label>
+               <textarea id='sugst' placeholder="Enter Your comment here..."></textarea><br>
+               <button class='submit_btn' onclick="final()">Button</button>
+            </div>
+        </div>    
+</body>
+</html>
