@@ -81,6 +81,7 @@ input:not(:focus),textarea:not(:focus),select:not(:focus){
     transition: 0.5s all;
     border-radius: 20px;
     border:none;
+    font-weight: 600;
 }
 .submit_btn:hover{
     color:antiquewhite;
